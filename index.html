@@ -14,19 +14,30 @@ For now, the test suite only works in Chrome! Please read the README below in th
 <h1 id="title">Survey Form</h1>
 
 <p id="description">This is a survey form</p>
-
 <form id="survey-form">
-  
+  <p>Please select thr program you are applying to:</p>
+  <div class="program">
+    <label>Talent Search</label>
+    <input type="radio" name="program" value="Talent-Search">
+    <label>Upward Bound</label>
+    <input type="radio" name="program" value="Talent-Search">
+  </div>
   <label id="name-label">name</label>
   <input id="name" placeholder="name" required/>
   <label id="email-label">Email</label>
   <input id="email" placeholder="email" type="email" required/>
   <label id="number-label">Number </label>
+  
+  <input type="checkbox" value="1">
+  <input type="checkbox" value="2">
+  <input type="checkbox" value="3">
+  <input type="checkbox" value="41">                                                                                        
   <select id="dropdown">
     <option>option 1</option>
     <option>option 2</option>
     <option>option 3</option>
   </select>
+
   <input type="radio" name="radio-buttons" value="1">
   <input type="radio" name="radio-buttons" value="2">
   <input type="radio" name="radio-buttons" value="3">
@@ -35,3 +46,9 @@ For now, the test suite only works in Chrome! Please read the README below in th
   <button id="submit">Submit</submit>
   
 </form>
+ 
+
+  </div>
+
+
+
